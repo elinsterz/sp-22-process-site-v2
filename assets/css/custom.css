@@ -5,23 +5,26 @@
 
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
-/* #banner {
-  background-image: url(../../images/pic01.jpg);
+#banner {
+  /* background-image: url(../../images/pic10.jpg); */
+  background-color: plum;
   background-size: cover;
-  color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: purple;
+  /* text-shadow: 1px 1px 15px #333; */
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
-} */
+}
 
 
 
 /* If you want to change the banner button color. The following two css rules use a class called "redbtn".
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
-#banner .button.redbtn {
-  background-color: rgba(188, 46, 26, 1);
+#banner .button.purplebtn {
+  /* background-color: rgba(188, 46, 26, 1); */
+  background-color: purple;
   box-shadow: none;
 }
 
@@ -34,3 +37,11 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+
+ .image-outline{
+   border: 2px solid grey !important;
+ }
+
+ .image-shadow{
+   box-shadow: 1px 1px 20px grey;
+ }
